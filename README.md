@@ -26,6 +26,8 @@ then go to these offset bytes and replace them:
 
 00000AD0 to 00002310
 
+00003AE0 to 00003AF0
+
 what i would do is copy from all the way to those offsets and paste it into the prodinfo you wanna inject
 
 nice to know where certs are stored but it does not boot : (
