@@ -4,6 +4,8 @@ how to inject new ssl cert
 
 [Source](https://switchbrew.org/wiki/Calibration)
 
+[Reference](https://github.com/eXhumer/eXCertXtract/blob/main/exnut/_cal0.py)
+
 Tools:
 
 [HXD](https://mh-nexus.de/en/hxd/)
