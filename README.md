@@ -32,4 +32,4 @@ nice to know where certs are stored but it does not boot : (
 
 to check if you did it correctly i would load it into nxnandmanager
 
-you can probably inject into a prodinfo gen tool bin file, but idk i havent tested
+you can probably inject into a prodinfo gen tool bin file, but idk i havent tested (crash too?)
