@@ -29,3 +29,5 @@ then go to these offset bytes and replace them:
 what i would do is copy from all the way to those offsets and paste it into the prodinfo you wanna inject
 
 if you did it correctly you have injected a new certificate into your prodinfo, so basically if you injected an unbanned cert into your banned prodinfo, now your prodinfo is unbanned. but i wouldnt use it yet so wait please dont do anything : ) (it might not boot but i have to test it)
+
+to check if you did it correctly i would load it into nxnandmanager
