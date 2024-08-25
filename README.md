@@ -4,7 +4,7 @@
 
 **THE TOOL IS (partially) BROKEN SO IT WILL NOT INJECT INTO PRODINFOS WITH CERTS ALREADY IN THEM, THE TOOL ONLY WORKS WITH PRODINFO GENERATED FROM PRODINFO_GEN TOOL ATM!!**
 
-While the tool does indeed sucessfully inject keys, serials, and certificates, the console for some reason **WILL NOT BOOT!**
+While the tool does indeed sucessfully inject keys, serials, and certificates, the console for some reason **WILL NOT BOOT!** (patches are underway to fix this!)
 
 if anybody would like to tinker with this and update the readme or the code, prs are welcome
 
