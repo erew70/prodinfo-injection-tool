@@ -1,7 +1,9 @@
 # prdinfo-injection
 ## NOTICE: PRODINFO.bin must be decrypted! (atmosphere already makes decrypted prodinfo backups in: atmosphere/automatic_backups)
 
-how to inject new ssl cert
+how to inject ssl cert and other PRODINFO data
+
+Tool is coming out soon....
 
 
 [Source](https://switchbrew.org/wiki/Calibration)
