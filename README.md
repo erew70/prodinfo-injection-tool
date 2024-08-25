@@ -19,7 +19,7 @@ ks = keys
 
 di = deviceID
 
-there are parts to each of these labeled as "pt" so every 2 parts is a start and end adress, so oct_pt_1 is the start adress and oct_pt_2 is the end adress and so on. Adding new injection options is easy since you just have to add new offsets, copy and paste one of the functions and rewrite it with the new offsets, then allow this function to be used as a option in main.py
+there are parts to each of these labeled as "pt" so every 2 parts is a start and end address, so oct_pt_1 is the start address and oct_pt_2 is the end adress and so on. Adding new injection options is easy since you just have to add new offsets, copy and paste one of the functions and rewrite it with the new offsets, then allow this function to be used as a option in main.py
 
 source: https://switchbrew.org/wiki/Calibration
 
