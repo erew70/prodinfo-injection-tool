@@ -23,6 +23,8 @@ ks = keys
 
 di = deviceID
 
+gamecard key/cert injection will come soon, for now just restore the prodinfo (if its another console) then place the donor prodinfo where it should go for prodinfo gen then generate it. this tool will soon support it
+
 there are parts to each of these labeled as "pt" so every 2 parts is a start and end address, so oct_pt_1 is the start address and oct_pt_2 is the end adress and so on. Adding new injection options is easy since you just have to add new offsets, copy and paste one of the functions and rewrite it with the new offsets, then allow this function to be used as a option in main.py
 
 source: https://switchbrew.org/wiki/Calibration
