@@ -1,6 +1,6 @@
 # NOTICE
 
-**MAKE SURE YOU HAVE DOCKER AND PYTHON INSTALLED! PLACE THE PRODINFO YOU WANNA INJECT INTO TO "prodinfo.gen.bin" AND THE ONE USED AS A DONOR "prodinfo.donor.bin"**
+**MAKE SURE YOU HAVE DOCKER AND PYTHON INSTALLED! PLACE THE PRODINFO YOU WANNA INJECT INTO TO "prodinfo.gen.bin" AND THE ONE USED AS A DONOR "prodinfo.donor.bin", THESE FILES MUST BE DECRYPTED! ATMOSPHERE MAKES AUTOMATIC PRODINFO BACKUPS AT "atmosphere/automatic_backups"!**
 
 Stability: ✅ (tool is working)
 
@@ -11,6 +11,9 @@ if you are injecting a prodinfo from another console into prodinfo.gen.bin, make
 please dont go online after using this tool unless you came from [my switch unban guide and you know what you are doing](https://github.com/erew70/SWITCH-UNBAN-GUIDE)
 
 if anybody would like to tinker with this and update the readme or the code, prs are welcome
+
+# so how does this work?
+this tool works by reading bytes from the donor prodinfo that is provided and injecting it into the prodinfo gen file, straightforward.
 
 # docs
 oct = onlne cert 
