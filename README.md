@@ -29,7 +29,7 @@ there are parts to each of these labeled as "pt" so every 2 parts is a start and
 
 source: https://switchbrew.org/wiki/Calibration
 
-some credit goes to this repo, as i based this tool off of theirs: https://github.com/eXhumer/eXCertXtract/
+some good amount of credit goes to this repo, as i based this tool off of theirs: https://github.com/eXhumer/eXCertXtract/
 
 # installation
 ```
