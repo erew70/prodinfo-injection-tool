@@ -15,4 +15,3 @@ git clone https://github.com/erew70/prodinfo-injection-tool.git
 cd prodinfo-injection-tool
 pip install -r requirements.txt
 py -3 main.py
-
