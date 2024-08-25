@@ -2,9 +2,9 @@
 
 **MAKE SURE YOU HAVE DOCKER AND PYTHON INSTALLED! PLACE THE PRODINFO YOU WANNA INJECT INTO TO "prodinfo.gen.bin" AND THE ONE USED AS A DONOR "prodinfo.donor.bin"**
 
-**THE TOOL IS BROKEN RIGHT NOW DUE TO A BUG IN HOW PYTHON READS OFFSETS, ALSO IT WILL NOT INJECT INTO PRODINFOS WITH CERTS ALREADY IN THEM, THE TOOL ONLY WORKS WITH PRODINFO GENERATED FROM PRODINFO_GEN TOOL! DO NOT USE THIS TOOL UNTIL I UPDATE OFFSETS!**
+Stability: ✅ (tool is working)
 
-While the tool does indeed PARTIALLY inject keys, serials, and certificates, the console for some reason **WILL NOT BOOT!** (patches are underway to fix this!)
+The tool works as long as you inject into a prodinfo that has been generated from [Prodinfo_gen](https://github.com/CaramelDunes/prodinfo_gen) 
 
 if anybody would like to tinker with this and update the readme or the code, prs are welcome
 
