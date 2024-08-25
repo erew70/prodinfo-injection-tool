@@ -1,0 +1,27 @@
+oct_pt_1 = 0xAD0
+oct_pt_2 = 0x2310
+
+oct_pt_3 = 0x2A90 
+oct_pt_4 = 0x2CD0
+
+oct_pt_5 = 0x3AE0 
+oct_pt_6 = 0x3AF0
+
+oct_pt_7 = 0x3AF0 
+oct_pt_8 = 0x3C10
+dct_pt_1 = 0x3FC0
+dct_pt_2 = 0x4200 # 🌿🚬
+
+os_pt_1 = 0x0480
+os_pt_2 = 0x04B0
+
+s_pt_1 = 0x200
+s_pt_2 = 0x260
+
+ks_pt_1 = 0x3770
+ks_pt_2 = 0x3AD0
+ks_pt_3 = 0x3D70
+ks_pt_4 = 0x3FB0
+
+di_pt_1 = 0x0540
+di_pt_2 = 0x0550
