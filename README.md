@@ -13,7 +13,7 @@ please dont go online after using this tool unless you came from [my switch unba
 if anybody would like to tinker with this and update the readme or the code, prs are welcome
 
 # so how does this work?
-this tool works by reading bytes from the donor prodinfo that is provided and injecting it into the prodinfo gen file, straightforward.
+this tool works by reading bytes from the donor prodinfo that is provided and injecting it into the prodinfo gen file, pretty straightforward.
 
 # docs
 oct = onlne cert 
