@@ -4,7 +4,11 @@
 
 Stability: ✅ (tool is working)
 
-The tool works as long as you inject into a prodinfo that has been generated from [Prodinfo_gen](https://github.com/CaramelDunes/prodinfo_gen) 
+The tool works as long as you inject into a prodinfo that has been generated from [Prodinfo_gen](https://github.com/CaramelDunes/prodinfo_gen)
+
+if you are injecting a prodinfo from another console into prodinfo.gen.bin, make sure to use deviceID patch! Please read: https://github.com/EliseZeroTwo/deviceid-exosphere-builder
+
+please dont go online after using this tool unless you came from [my switch unban guide and you know what you are doing](https://github.com/erew70/SWITCH-UNBAN-GUIDE)
 
 if anybody would like to tinker with this and update the readme or the code, prs are welcome
 
