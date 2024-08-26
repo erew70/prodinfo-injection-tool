@@ -2,13 +2,13 @@
 
 **MAKE SURE YOU HAVE DOCKER AND PYTHON INSTALLED! PLACE THE PRODINFO YOU WANNA INJECT INTO TO "prodinfo.gen.bin" AND THE ONE USED AS A DONOR "prodinfo.donor.bin", THESE FILES MUST BE DECRYPTED! ATMOSPHERE MAKES AUTOMATIC PRODINFO BACKUPS AT "atmosphere/automatic_backups"!**
 
-Heres what works
+Heres what works right now:
 
-|              | | | Amiibos | GameCards | Online |
-| ------------ | :-----: | :-------: | :-----: | :-------: | :----: |
-| Tool injections | Soon | Soon|✅|
+|                  | Amiibos | GameCards | Online |
+|------------------|:-------:|:---------:|:------:|
+| Tool injections  | Soon    | Soon      | ✅  |
 
-NOTICE: just this tool is not enough for unban!
+NOTICE: just this tool is not enough for a complete unban!
 
 The tool works as long as you inject into a prodinfo that has been generated from [Prodinfo_gen](https://github.com/CaramelDunes/prodinfo_gen)
 
