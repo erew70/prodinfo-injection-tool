@@ -4,9 +4,9 @@
 
 Heres what works right now:
 
-|                  | Amiibos | GameCards | Online |
-|------------------|:-------:|:---------:|:------:|
-| Tool injections  | Soon    | Soon      | ✅  |
+| Amiibos | GameCards | Online |
+|:-------:|:---------:|:------:|
+| Soon    | Soon      | ✅  |
 
 NOTICE: just this tool is not enough for a complete unban!
 
