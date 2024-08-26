@@ -1,5 +1,8 @@
 # NOTICE
 
+⚠️ please dont go online after using this tool (yet) ⚠️
+
+
 **MAKE SURE YOU HAVE DOCKER AND PYTHON INSTALLED! PLACE THE PRODINFO YOU WANNA INJECT INTO TO "prodinfo.gen.bin" AND THE ONE USED AS A DONOR "prodinfo.donor.bin", THESE FILES MUST BE DECRYPTED! ATMOSPHERE MAKES AUTOMATIC PRODINFO BACKUPS AT "atmosphere/automatic_backups"!**
 
 **JUST THIS TOOL IS NOT ENOUGH FOR A COMPLETE UNBAN! (but its part of it!)**
@@ -15,7 +18,6 @@ Heres what injections work right now:
 * Amiibos already work from prodinfo_gen but if you want i can add support for those injections if you want
 
 
-⚠️ please dont go online after using this tool (yet) ⚠️
 
 
 # so how does this work?
