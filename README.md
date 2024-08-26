@@ -16,6 +16,7 @@ Heres what injections work right now:
 | Soon  | Soon  | ✅  |
 
 * Amiibos already work from prodinfo_gen but if you want i can add support for those injections if you want
+* also injecting into factory prodinfo (one that hasnt been generated) also works 👍
 
 
 
