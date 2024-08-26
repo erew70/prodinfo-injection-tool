@@ -6,7 +6,7 @@ Heres what injections work right now:
 
 | Amiibos | GameCards | Online |
 |:-------:|:---------:|:------:|
-| Soon    | Soon      | ✅  |
+| Soon  (but prodinfo_gen already does it for you ¯\_(ツ)_/¯)  | Soon      | ✅  |
 
 NOTICE: just this tool is not enough for a complete unban!
 
