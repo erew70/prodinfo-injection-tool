@@ -25,3 +25,9 @@ ks_pt_4 = 0x3FC0
 
 di_pt_1 = 0x0540
 di_pt_2 = 0x0560
+
+gc_pt_1 = 0x2320
+gc_pt_2 = 0x2860
+
+ao_pt_1 = 0x3520
+ao_pt_2 = 0x36B0
