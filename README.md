@@ -5,6 +5,8 @@
 
 **MAKE SURE YOU HAVE DOCKER AND PYTHON INSTALLED! PLACE THE PRODINFO YOU WANNA INJECT INTO TO "prodinfo.gen.bin" AND THE ONE USED AS A DONOR "prodinfo.donor.bin", THESE FILES MUST BE DECRYPTED! ATMOSPHERE MAKES AUTOMATIC PRODINFO BACKUPS AT "atmosphere/automatic_backups"!**
 
+**BLANKING OPTION ONLY BLANKS "prodinfo.gen.bin"! BLANKING DOES NOT WORK ON 17.0.0+**
+
 **JUST THIS TOOL IS NOT ENOUGH FOR A COMPLETE UNBAN! (but its part of it!)**
 
 For injections from another factory prodinfo, (that isnt tied to your switch) please read: https://github.com/EliseZeroTwo/deviceid-exosphere-builder
