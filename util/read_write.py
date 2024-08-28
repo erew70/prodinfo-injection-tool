@@ -215,7 +215,7 @@ def blanker(prodinfo_gen, prodinfo_blank):
     pt10_start = gc_pt_1
     pt10_end = gc_pt_2
 
-    ch = input("Do you wanna blank Gamecard or no ? (Type GC for blanking gamecard, otherwise, type NOGC for no gamecard)")
+    ch = input('Do you wanna blank Gamecard or no ? (Type GC for blanking gamecard, otherwise, type NOGC for no gamecard)\n')
 
     if ch == "GC":
         blanker_data_pt1 = read_bytes_from_file(prodinfo_blank, pt1_start, pt1_end)
