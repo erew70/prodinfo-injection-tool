@@ -1,7 +1,3 @@
-from binascii import hexlify
-from pathlib import Path
-from typing import BinaryIO
-
 from .data.offsets import *
 
 
@@ -155,6 +151,118 @@ def importNewDeviceID(prodinfo_gen, prodinfo_donor):
     write_bytes_to_file(prodinfo_gen, pt1_start, donor_data_pt1)
 
 
+
+def importGameCard(prodinfo_gen, prodinfo_donor):
+
+
+
+    pt1_start = gc_pt_1
+    pt1_end = gc_pt_2
+
+
+    
+
+    # Read the byte ranges from prodinfo_donor
+    donor_data_pt1 = read_bytes_from_file(prodinfo_donor, pt1_start, pt1_end)
+   
+    # Write the byte ranges to prodinfo_gen
+    write_bytes_to_file(prodinfo_gen, pt1_start, donor_data_pt1)
+
+
+def importAmiibo(prodinfo_gen, prodinfo_donor):
+
+
+    pt1_start = ao_pt_1
+    pt1_end = ao_pt_2
+
+
+    
+
+    # Read the byte ranges from prodinfo_donor
+    donor_data_pt1 = read_bytes_from_file(prodinfo_donor, pt1_start, pt1_end)
+   
+    # Write the byte ranges to prodinfo_gen
+    write_bytes_to_file(prodinfo_gen, pt1_start, donor_data_pt1)
+
+
+def blanker(prodinfo_gen, prodinfo_blank):
+
+    pt1_start = oct_pt_1
+    pt1_end = oct_pt_2
+    pt2_start = oct_pt_3
+    pt2_end = oct_pt_4
+    pt3_start = oct_pt_5
+    pt3_end = oct_pt_6
+    pt4_start = oct_pt_7
+    pt4_end = oct_pt_8
+    pt5_start = dct_pt_1
+    pt5_end = dct_pt_2
+
+
+    pt6_start = s_pt_1
+    pt6_end = s_pt_2
+
+    pt7_start = os_pt_1
+    pt7_end = os_pt_2
+
+    pt8_start = ks_pt_1
+    pt8_end = ks_pt_2
+    pt9_start = ks_pt_3
+    pt9_end = ks_pt_4
+
+
+
+    pt10_start = gc_pt_1
+    pt10_end = gc_pt_2
+
+    ch = input("Do you wanna blank Gamecard or no ? (Type GC for blanking gamecard, otherwise, type NOGC for no gamecard)")
+
+    if ch == "GC":
+        blanker_data_pt1 = read_bytes_from_file(prodinfo_blank, pt1_start, pt1_end)
+        blanker_data_pt2 = read_bytes_from_file(prodinfo_blank, pt2_start, pt2_end)
+        blanker_data_pt3 = read_bytes_from_file(prodinfo_blank, pt3_start, pt3_end)
+        blanker_data_pt4 = read_bytes_from_file(prodinfo_blank, pt4_start, pt4_end)
+        blanker_data_pt5 = read_bytes_from_file(prodinfo_blank, pt5_start, pt5_end)
+        blanker_data_pt6 = read_bytes_from_file(prodinfo_blank, pt6_start, pt6_end)
+        blanker_data_pt7 = read_bytes_from_file(prodinfo_blank, pt7_start, pt7_end)
+        blanker_data_pt8 = read_bytes_from_file(prodinfo_blank,pt8_start, pt8_end)
+        blanker_data_pt9 = read_bytes_from_file(prodinfo_blank,pt9_start, pt9_end)
+        blanker_data_pt10 = read_bytes_from_file(prodinfo_blank,pt10_start, pt10_end)
+        write_bytes_to_file(prodinfo_gen, pt10_start, blanker_data_pt10)
+        write_bytes_to_file(prodinfo_gen, pt9_start, blanker_data_pt9)
+        write_bytes_to_file(prodinfo_gen, pt8_start, blanker_data_pt8)
+        write_bytes_to_file(prodinfo_gen, pt7_start, blanker_data_pt7)
+        write_bytes_to_file(prodinfo_gen, pt6_start, blanker_data_pt6)
+        write_bytes_to_file(prodinfo_gen, pt5_start, blanker_data_pt5)
+        write_bytes_to_file(prodinfo_gen, pt4_start, blanker_data_pt4)
+        write_bytes_to_file(prodinfo_gen, pt3_start, blanker_data_pt3)
+        write_bytes_to_file(prodinfo_gen, pt2_start, blanker_data_pt2)
+        write_bytes_to_file(prodinfo_gen, pt1_start, blanker_data_pt1)
+
+    
+    if ch == "NOGC":
+        blanker_data_pt1 = read_bytes_from_file(prodinfo_blank, pt1_start, pt1_end)
+        blanker_data_pt2 = read_bytes_from_file(prodinfo_blank, pt2_start, pt2_end)
+        blanker_data_pt3 = read_bytes_from_file(prodinfo_blank, pt3_start, pt3_end)
+        blanker_data_pt4 = read_bytes_from_file(prodinfo_blank, pt4_start, pt4_end)
+        blanker_data_pt5 = read_bytes_from_file(prodinfo_blank, pt5_start, pt5_end)
+        blanker_data_pt6 = read_bytes_from_file(prodinfo_blank, pt6_start, pt6_end)
+        blanker_data_pt7 = read_bytes_from_file(prodinfo_blank, pt7_start, pt7_end)
+        blanker_data_pt8 = read_bytes_from_file(prodinfo_blank,pt8_start, pt8_end)
+        blanker_data_pt9 = read_bytes_from_file(prodinfo_blank,pt9_start, pt9_end)
+        write_bytes_to_file(prodinfo_gen, pt9_start, blanker_data_pt9)
+        write_bytes_to_file(prodinfo_gen, pt8_start, blanker_data_pt8)
+        write_bytes_to_file(prodinfo_gen, pt7_start, blanker_data_pt7)
+        write_bytes_to_file(prodinfo_gen, pt6_start, blanker_data_pt6)
+        write_bytes_to_file(prodinfo_gen, pt5_start, blanker_data_pt5)
+        write_bytes_to_file(prodinfo_gen, pt4_start, blanker_data_pt4)
+        write_bytes_to_file(prodinfo_gen, pt3_start, blanker_data_pt3)
+        write_bytes_to_file(prodinfo_gen, pt2_start, blanker_data_pt2)
+        write_bytes_to_file(prodinfo_gen, pt1_start, blanker_data_pt1)
+
+
+
+
 def getDeviceID(prodinfo_donor):
 
 
@@ -177,3 +285,4 @@ def getDeviceID(prodinfo_donor):
         deviceID = donor_data_str
 
     return deviceID
+
