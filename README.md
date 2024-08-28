@@ -17,7 +17,8 @@ Heres what injections work right now:
 |:-------:|:---------:|:------:|:------:|
 |✅|✅|✅ |✅|
 
-* Amiibos already work from prodinfo_gen but if you want i can add support for those injections if you want
+* a blank.bin has been supplied for you to build your prodinfo from scratch
+* Amiibos already work from prodinfo_gen but if you want you can inject amiibos yourself
 * also injecting into factory prodinfo (one that hasnt been generated) also works 👍
 
 
@@ -37,6 +38,9 @@ ks = keys
 
 di = deviceID
 
+gc = gamecard
+
+ao = amiibo
 
 
 there are parts to each of these labeled as "pt" so every 2 parts is a start and end address, so oct_pt_1 is the start address and oct_pt_2 is the end adress and so on. Adding new injection options is easy since you just have to add new offsets, copy and paste one of the functions and rewrite it with the new offsets, then allow this function to be used as a option in main.py
