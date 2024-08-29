@@ -52,8 +52,14 @@ source: https://switchbrew.org/wiki/Calibration
 
 some good amount of credit goes to this repo, as i based this tool off of theirs: https://github.com/eXhumer/eXCertXtract/
 
-# installation
+# Installation
 ```
 git clone https://github.com/erew70/prodinfo-injection-tool.git
 cd prodinfo-injection-tool
 py -3 main.py
+
+```
+
+# Support
+
+if you need my help, add me on discord: erew0962
