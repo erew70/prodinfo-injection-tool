@@ -57,7 +57,6 @@ some good amount of credit goes to this repo, as i based this tool off of theirs
 git clone https://github.com/erew70/prodinfo-injection-tool.git
 cd prodinfo-injection-tool
 py -3 main.py
-
 ```
 
 # Support
